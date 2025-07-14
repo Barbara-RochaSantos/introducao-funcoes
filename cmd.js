@@ -21,7 +21,7 @@ function injetarPao(){
 }
 
 function mainTorrada (){                                 //Aqui crio a função main ou função "mãe", onde coloco todas as ações englobadas para fazer a torrada, deste modo, consigo apenas chamando a função 'main' executar todas as ações necessárias. 
-	prepararPao ()                                      //Deste modo elimino a necessidade de chamar cada uma das ações/funções isoladamente, otimizando o trabalho.
+	prepararPao ()                                      //Eliminando a necessidade de chamar cada uma das ações/funções isoladamente, otimizando o trabalho.
     torrar ()
     injetarPao ()
     }
